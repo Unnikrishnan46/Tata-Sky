@@ -1,0 +1,56 @@
+.person{
+    margin-left: 2rem;
+    
+}
+.play{
+    height: 9rem;
+    width: 16rem;
+}
+.hai{
+    width: 16rem;
+    font-size: small;
+}
+.hello{
+    width: 16rem;
+}
+
+.para{
+    font-size: 0.75rem !important;
+}
+.para2{
+    
+    font-size: 0.75rem ;
+}
+.para3{
+    font-size: 0.75rem !important;
+}
+.navbar{
+    background-color: #220046;
+}
+.sect1{
+    background-color: #6b00dd;
+}
+#button1{
+    background-color: #e10092 !important;
+    width: 10rem;
+}
+#button2{
+    background-color: #e10092;
+    width: 10rem;
+}
+#button3{
+    background-color: #e10092;
+    border: none;
+}
+#button4{
+    background-color: #e10092;
+}
+#button5{
+    background-color: #e10092;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}

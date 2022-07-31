@@ -1,0 +1,40 @@
+.navbar{
+    background-color: #220046;
+    height: 4.4rem;
+   
+}
+.mainbody{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+#para1{
+    letter-spacing: 1px;
+}
+#subscriberid{
+    width: 130px;
+}
+.inputform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    text-align: initial;
+}
+.box{
+    width: 18rem;
+    height: 2.4rem;
+    border: 1px solid #ccc;
+}
+.box:hover{
+    border: 1px solid pink;
+    box-shadow: 4px;
+}
+
+
+#buttonlast{
+    background-color: #e10092;
+    width: 9rem;
+    height: 4rem;
+}

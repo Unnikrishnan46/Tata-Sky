@@ -1,0 +1,29 @@
+$(document).ready(function(){
+    $("#submit-form").validate({
+        rules:{
+            id:{
+                required:true,
+                minlength:4,
+            },
+            password:{
+                required:true,
+                minlength:6
+            },
+            conformpassword:{
+                required:true,
+                minlength:6,
+                equalTo:"#password"
+            },
+            email:{
+                required:true,
+                email:true
+            },
+            number:{
+                required:true,
+                minlength:10
+            }
+        }
+        
+    })
+})
+
